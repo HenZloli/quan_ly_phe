@@ -10,8 +10,5 @@ class UserController extends Controller
     {
         return view('index');
     }
-    public function LoginFrom()
-    {
-        echo "hoclamhoclon";
-    }
+   
 }
