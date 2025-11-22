@@ -10,11 +10,6 @@ class UserController extends Controller
     {
         return view('Login.login');
     }
-    
-    public function LoginForm()
-    {
-        echo "dang nhap di";
-    }
 }
 
 
