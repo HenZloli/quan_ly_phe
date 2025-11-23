@@ -8,12 +8,7 @@ class UserController extends Controller
 {
     public function index()
     {
-        return view('Login.login');
-    }
-    
-    public function LoginForm()
-    {
-        echo "dang nhap di";
+        return view('Login/index');
     }
 }
 
