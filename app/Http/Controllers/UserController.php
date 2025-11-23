@@ -8,7 +8,7 @@ class UserController extends Controller
 {
     public function index()
     {
-        return view('Login.login');
+        return view('Login/index');
     }
 }
 
