@@ -42,13 +42,12 @@ class AuthController extends Controller
     public function login(Request $request)
     {
         $request->validate([
-            'email' => 'required|email',
+            'username' => 'required|email',
             'password' => 'required'
         ]);
-
-        if (Auth::attempt($request->only('email', 'password'))) {
-            $request->session()->regenerate();
-            return redirect('/dashboard/');
+        if (Auth::guard('AccManager')->attempt($request->only('username', 'password'))) {
+                // $request->session()->regenerate();
+            return redirect('dashboard');
         }
 
         return back()->withErrors([
@@ -63,9 +62,9 @@ class AuthController extends Controller
 
     // Logout
     public function logout(Request $request) {
-        Auth::logout();
+        Auth::guard('AccManager')->logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        return redirect('/login/');
+        return redirect()->route("AccManager.login");
     }
 }

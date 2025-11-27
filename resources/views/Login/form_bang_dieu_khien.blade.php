@@ -5,12 +5,9 @@
 </head>
 <body>
 
-<h1>Xin chào, {{ Auth::user()->name }}</h1>
+ <h1>Hello</h1>
 
-<form method="POST" action="/logout">
-    @csrf
-    <button type="submit">Đăng xuất</button>
-</form>
+<a href="logout">Đăng xuất</a>
 
 </body>
 </html>
