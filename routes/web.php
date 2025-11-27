@@ -19,9 +19,9 @@ Route::middleware('admin')->group(function () {
 });
 
 
-// Group cho admin
-// Route::middleware(['auth','role:admin'])->group(function() {
-//     Route::get('/admin/users', [AdminController::class, 'index']); // danh sách users
-//     Route::get('/admin/users/create', [AdminController::class, 'create']); // form tạo user
-//     Route::post('/admin/users', [AdminController::class, 'store']); // lưu user mới
-// });
+//Group cho admin
+Route::middleware(['auth','role:admin'])->group(function() {
+    Route::get('/admin/users', [AdminController::class, 'index']); // danh sách users
+    Route::get('/admin/users/create', [AdminController::class, 'create']); // form tạo user
+    Route::post('/admin/users', [AdminController::class, 'store']); // lưu user mới
+});
