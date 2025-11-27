@@ -29,7 +29,7 @@
 
         </template>
 
-    </div>
+    </div> 
 </div>
 
 <!-- POPUP FORM -->
