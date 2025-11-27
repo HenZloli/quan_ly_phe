@@ -10,6 +10,5 @@ class UserController extends Controller
     {
         return view('Login/index');
     }
+
 }
-
-
