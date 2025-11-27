@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('title', 'Highlands Coffee')
 
@@ -133,7 +133,7 @@
 </style>
 
 
-<h2 class="coffee-title">Me and Nu</h2>
+<h2 class="coffee-title">☕ Highlands Coffee</h2>
 
 <div class="product-list">
 
