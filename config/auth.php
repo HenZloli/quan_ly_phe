@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'AccManager' => [
+            'driver' => 'session',
+            'provider' => 'AccManagers',
+        ],
     ],
 
     /*
@@ -64,7 +68,10 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
-
+        'AccManagers' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\AccManager::class,
+        ],
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
