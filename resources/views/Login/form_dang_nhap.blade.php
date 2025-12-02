@@ -59,8 +59,8 @@
         @csrf
 
         <div class="mb-3 input-group">
-            <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
-            <input type="email" class="form-control" name="username" placeholder="Email" required>
+            <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+            <input type="text" class="form-control" name="username" placeholder="Tên đăng nhập" required>
         </div>
 
         <div class="mb-3 input-group">
@@ -81,5 +81,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-

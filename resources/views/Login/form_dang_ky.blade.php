@@ -54,12 +54,7 @@
 
         <div class="mb-3 input-group">
             <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
-            <input type="text" class="form-control" name="name" placeholder="Tên" required>
-        </div>
-
-        <div class="mb-3 input-group">
-            <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
-            <input type="email" class="form-control" name="email" placeholder="Email" required>
+            <input type="text" class="form-control" name="username" placeholder="Tên đăng nhập" required>
         </div>
 
         <div class="mb-3 input-group">
