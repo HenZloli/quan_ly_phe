@@ -15,7 +15,6 @@ class AccManager extends Authenticatable
         'username',
         'password',
         'role',
-        'balance'
     ];
 
 
