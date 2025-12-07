@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>@yield('title', 'Highlands Coffee')</title>
+    <title>@yield('title', 'Lowlands Coffee')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{-- Bootstrap --}}
@@ -81,7 +81,6 @@
                 <a href="/trang_chu">Trang chủ</a>
                 <a href="/menu">Menu</a>
                 <a href="/my-orders">Trạng Thái</a>
-                <a href="#">Liên hệ</a>
             </nav>
         </div>
     </header>
@@ -97,20 +96,19 @@
             <div class="row">
                 {{-- Thông tin cửa hàng --}}
                 <div class="col-md-4 mb-3">
-                    <h5 class="fw-bold">Highlands Coffee</h5>
-                    <p>Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM</p>
-                    <p>Email: contact@highlands.vn</p>
-                    <p>Hotline: 1900 1234</p>
+                    <h5 class="fw-bold">Lowlands Coffee</h5>
+                    <p>47/32 - Nguyễn Đạo an - Phú diễn - Bắc từ liêm - Hà lội</p>
+                    <p>Email: Niga@Lowlands.vn</p>
+                    <p>Hotline: 0000000000</p>
                 </div>
 
                 {{-- Liên kết --}}
                 <div class="col-md-4 mb-3">
                     <h5 class="fw-bold">Liên kết nhanh</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white text-decoration-none">Trang chủ</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Menu</a></li>
-                        <li><a href="/dat_ban_de" class="text-white text-decoration-none">Đặt bàn</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Liên hệ</a></li>
+                        <li><a href="/trang_chu" class="text-white text-decoration-none">Trang chủ</a></li>
+                        <li><a href="/menu" class="text-white text-decoration-none">Menu</a></li>
+                        <li><a href="/my-orders" class="text-white text-decoration-none">Đặt bàn</a></li>
                     </ul>
                 </div>
 
@@ -126,7 +124,7 @@
             <hr class="bg-secondary">
 
             <div class="text-center">
-                <p class="mb-0">&copy; 2025 Highlands Coffee. Bảo lưu mọi quyền.</p>
+                <p class="mb-0">&copy; 2025 Lowlands Coffee. Bảo lưu mọi quyền.</p>
             </div>
         </div>
     </footer>

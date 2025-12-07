@@ -74,7 +74,7 @@ class AuthController extends Controller
 
     // Dashboard
     public function trang_chu_ui() {
-        return view('Login.form_trang_chu');
+        return view('test');
     }
 
 
